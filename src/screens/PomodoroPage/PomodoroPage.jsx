@@ -68,7 +68,7 @@ export const PomodoroPage = () => {
 					);
 					setTodoList(updateList);
 					localStorage.setItem("todoList", JSON.stringify(updateList));
-					return stopTimer();
+					return;
 				}
 			}
 
