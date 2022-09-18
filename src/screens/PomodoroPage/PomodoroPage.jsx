@@ -53,8 +53,6 @@ export const PomodoroPage = () => {
 	};
 
 	useEffect(() => {
-		switchMode();
-
 		secondsLeftRef.current = task.time * 60;
 		setSecondsLeft(secondsLeftRef.current);
 
