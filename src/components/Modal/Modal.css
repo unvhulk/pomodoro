@@ -1,0 +1,87 @@
+.Modal {
+	position: absolute;
+	z-index: 1;
+	background-color: whitesmoke;
+	top: 10rem;
+	left: 30%;
+	width: 30rem;
+	max-height: 99vh;
+	border: 1px solid #000;
+	border-radius: 1rem;
+}
+
+.Overlay {
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.Modal-form-container {
+	display: grid;
+	margin: 0 10px 10px 10px;
+	padding: 0 10px 10px 10px;
+	grid-template-rows: repeat(8, 1fr);
+	height: 25rem;
+}
+.Modal-form-container input {
+	font-family: "Poppins";
+	width: 100%;
+}
+.Modal-form-container button {
+	font-family: "Poppins";
+}
+.Modal-form-container textarea {
+	width: 100%;
+	height: 80%;
+	font-family: "Poppins";
+	font-size: 1rem;
+}
+.Modal-form-container > :nth-child(1) {
+	grid-row: 1/2;
+	display: grid;
+	justify-self: end;
+	align-self: center;
+	cursor: pointer;
+	color: #554dac;
+}
+.Modal-form-container :nth-child(2) {
+	grid-row: 2/3;
+}
+.Modal-form-container :nth-child(3) {
+	grid-row: 3/7;
+	width: 100%;
+}
+.Modal-form-container :nth-child(4) {
+	grid-row: 7/8;
+}
+.Modal-form-container :nth-child(6) {
+	grid-row: 9/10;
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 1fr 1fr;
+}
+.Modal-form-container :nth-child(6) > :nth-child(1) {
+	color: #554dac;
+	background-color: #fff;
+	border: 1px solid black;
+	margin: 1rem 5rem 0 0;
+	cursor: pointer;
+}
+.Modal-form-container :nth-child(6) > :nth-child(2) {
+	grid-row: 1/2;
+	grid-column: 2/3;
+	background-color: #554dac;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	margin: 1rem 0 0 5rem;
+}
+.error-msg {
+	color: red;
+	font-size: x-small;
+	margin: 0;
+	padding: 0;
+}
