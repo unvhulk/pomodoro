@@ -10,7 +10,6 @@ const TaskProvider = ({ children }) => {
 		JSON.parse(localStorage.getItem("todoList")) ?? []
 	);
 
-	console.log(JSON.parse(localStorage.getItem("todoList")));
 	return (
 		<taskContext.Provider value={{ task, setTask, todoList, setTodoList }}>
 			{children}
