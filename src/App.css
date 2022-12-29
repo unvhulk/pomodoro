@@ -2,11 +2,7 @@
 	height: 100vh;
 	display: grid;
 }
-#root .Landing-container {
-	height: 90%;
-	width: 85%;
-	margin: auto;
-}
+
 .App {
 	display: grid;
 	background-color: #554dac;

@@ -5,7 +5,7 @@
 	border-radius: 2rem;
 	background: #ffffff;
 	box-shadow: 0px 4px 40px rgba(83, 72, 199, 0.08);
-	border-radius: 40px;
+	margin: 2rem;
 }
 .Landing-left {
 	grid-column: 1/3;
